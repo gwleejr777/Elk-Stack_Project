@@ -23,7 +23,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 
 Load balancing ensures that the application will be highly __available__, in addition to restricting __access__ to the network.
 
-- What aspect of security do load balancers protect? 
+- What aspect of security do load balancers protect?
 - __Load Balancers protect availability of the VMs. Protects against DDOS attacks and help balance the load on servers. Provide redundancy and reduce or eliminate downtime in the event a server goes down. It also protects the internal network by providing a public IP to the Load Balancer and hides the other machines on the internal network__. 
 
 What is the advantage of a jump box?
