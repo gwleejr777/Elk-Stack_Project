@@ -26,7 +26,7 @@ Load balancing ensures that the application will be highly __available__, in add
 - What aspect of security do load balancers protect? 
 - __Load Balancers protect availability of the VMs. Protects against DDOS attacks and help balance the load on servers. Provide redundancy and reduce or eliminate downtime in the event a server goes down. It also protects the internal network by providing a public IP to the Load Balancer and hides the other machines on the internal network__. 
 
-What is the advantage of a jump box? 
+What is the advantage of a jump box?
 - __It allows access to manage all devices in the network. It's allows the server to pivot to another server and provides an added layer of security to the network__
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the __files__ and __system__ logs.
