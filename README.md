@@ -37,11 +37,15 @@ The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function       |IP Address| Operating System |
-|----------|----------------|-----------------------------|
-| Jump Box | Gateway        | 10.0.0.8 |Linux(ubuntu18.04)|
-| Web-1    | WebServer/DVWA | 10.0.0.4 |Linux(ubuntu18.04)|
-| Web-2    | WebServer/DVWA | 10.0.0.5 |Linux(ubuntu18.04)|
-| Elk-VM   | Log Server     | 10.1.0.4 |Linux(ubuntu18.04)|
+|----------|----------------|The configuration details of each machine may be found below.
+_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+
+| Name     | Function | IP Address | Operating System   |
+|----------|----------|------------|------------------- |
+| Jump Box | Gateway        | 10.0.0.8   | Linux Ubuntu 18.04 |
+| Web-1    | Webserver/DVWA | 10.0.0.4   | Linux Ubuntu 18.04 |
+| Web-2    | Webserver/DVWA | 10.0.0.5   | Linux Ubuntu 18.04 |
+| Elk-VM   | Log Server     | 10.1.0.4   | Linux Ubuntu 18.04 |
 
 ### Access Policies
 
@@ -102,7 +106,11 @@ SSH into the control node and follow the steps below:
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? __Filebeat-Playbook.yml__ Where do you copy it? __/etc/filebeat/filebeat.yml__
-- _Which file do you update to make Ansible run the playbook on a specific machine? __filebeats-config.yml__ How do I specify which machine to install the ELK server on versus which to install Filebeat on? __updating the Hosts name on the Install-Elk.yml__
+
+- _Which file do you update to make Ansible run the playbook on a specific machine? __filebeats-config.yml__ 
+
+- How do I specify which machine to install the ELK server on versus which to install Filebeat on? __You specify by updating the Hosts name on the Install-Elk.yml__
+
 - _Which URL do you navigate to in order to check that the ELK server is running? __http://40.78.1.88:5601/app/Kibana__
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
