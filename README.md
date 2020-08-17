@@ -22,11 +22,14 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly __available__, in addition to restricting __access__ to the network.
-- What aspect of security do load balancers protect? __Load Balancers protect availability of the VMs. Protects against DDOS attacks and help balance the load on servers. Provide redundancy and reduce or eliminate downtime in the event a server goes down. It also protects the internal network by providing a public IP to the Load Balancer and hides the other machines on the internal network.__ What is the advantage of a jump box?___It allows access to manage all devices in the network. It's allows the server to pivot to another server and provides an added layer of security to the network__
+
+- What aspect of security do load balancers protect? __Load Balancers protect availability of the VMs. Protects against DDOS attacks and help balance the load on servers. Provide redundancy and reduce or eliminate downtime in the event a server goes down. It also protects the internal network by providing a public IP to the Load Balancer and hides the other machines on the internal network__. 
+
+What is the advantage of a jump box? ___It allows access to manage all devices in the network. It's allows the server to pivot to another server and provides an added layer of security to the network__
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the __files__ and __system__ logs.
-- What does Filebeat watch for?__Filebeat collects system logs and fowards them to elasticsearch for review__
-- What does Metricbeat record?__Metricbeat gathers metric and statistics and sends the data to the output specified, such as elasticsearch.__
+- What does Filebeat watch for? __Filebeat collects system logs and fowards them to elasticsearch for review__
+- What does Metricbeat record? __Metricbeat gathers metric and statistics and sends the data to the output specified, such as elasticsearch.__
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -61,7 +64,7 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?__Reduces resources needed and amount of time to launch VM's.__
+- _TODO: What is the main advantage of automating configuration with Ansible?__The main advantage is the reduction of resources needed and amount of time to it takes to launch VMs across a network__.
 
 The playbook implements the following tasks:
 - _TODO: In 3-5 bullets, explain the steps of the ELK installation play. 
