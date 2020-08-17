@@ -24,10 +24,10 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly __available__, in addition to restricting __access__ to the network.
 
 - What aspect of security do load balancers protect? 
-__Load Balancers protect availability of the VMs. Protects against DDOS attacks and help balance the load on servers. Provide redundancy and reduce or eliminate downtime in the event a server goes down. It also protects the internal network by providing a public IP to the Load Balancer and hides the other machines on the internal network__. 
+- __Load Balancers protect availability of the VMs. Protects against DDOS attacks and help balance the load on servers. Provide redundancy and reduce or eliminate downtime in the event a server goes down. It also protects the internal network by providing a public IP to the Load Balancer and hides the other machines on the internal network__. 
 
 What is the advantage of a jump box? 
-__It allows access to manage all devices in the network. It's allows the server to pivot to another server and provides an added layer of security to the network__
+- __It allows access to manage all devices in the network. It's allows the server to pivot to another server and provides an added layer of security to the network__
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the __files__ and __system__ logs.
 - What does Filebeat watch for? __Filebeat collects system logs and fowards them to elasticsearch for review__
@@ -56,7 +56,7 @@ Only the __Jump Box__ machine can accept connections from the Internet. Access t
 
 Machines within the network can only be accessed by __Jump Box w/Ansbile + Docker__.
 - Which machine did you allow to access your ELK VM? __I allowed my Jump Box Docker container 'funny_Borg' to access my ELK VM__ 
-What was its IP address? __Private IP: 10.1.0.4__
+- What was its IP address? __Private IP: 10.1.0.4__
 
 A summary of the access policies in place can be found in the table below.
 
