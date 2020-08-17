@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Image of Red Team Resource Group and Elk Stack](/images/Elk_Stack_Red_Team_Resource_Group.jpg)
+![Image of Red Team Resource Group and Elk Stack](/images/Elk_Stack_Red_Team-RG.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the __playbook.yml__ file may be used to install only certain pieces of it, such as Filebeat.
 
