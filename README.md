@@ -111,7 +111,7 @@ SSH into the control node and follow the steps below:
 
 - Which URL do you navigate to in order to check that the ELK server is running? __http://40.78.1.88:5601/app/Kibana__
 
-__**Here are the specific commands the user will need to run to download the playbook, update the files, etc.**__
+**__Here are the specific commands the user will need to run to download the playbook, update the files, etc.__**
 
  - ssh azureuser@JumpBoxPublicIP
  
