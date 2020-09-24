@@ -73,7 +73,6 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - _TODO: What is the main advantage of automating configuration with Ansible?__The main advantage is the reduction of resources needed and amount of time to it takes to launch VMs across a network__.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. 
 - __name: Install docker.io__
 - __name: Install python3-pip__
 - __name: Install Docker module__
@@ -104,7 +103,6 @@ SSH into the control node and follow the steps below:
 - Update the __config file__ to include __Elk Server Private IP__
 - Run the playbook, and navigate to __Elk Public IP:5601/Kibana__ to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? __Filebeat-Playbook.yml__ Where do you copy it? __/etc/filebeat/filebeat.yml__
 
 - _Which file do you update to make Ansible run the playbook on a specific machine? __filebeats-config.yml__ 
